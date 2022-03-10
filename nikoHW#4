@@ -8,15 +8,15 @@ if(num % 2 == 0){
   }
   while(num % 2 == 0){
   cout << "Bad input! Enter an odd integer.\n";
-  cin >> nym;
+  cin >> num;
   }
-  for( int r = 1; r <=num; r++){
+  for(int r = 1; r <=num; r++){
     for(int c = 1; c <= num: c++)
       if(r == 1 || r == num)
         cout << "X";
       else if(c == 1 || c == num)
         cout << "O";
-      else if(c ! = (num/2 + 1 || r != (num/2 + 1)
+      else if(c ! = (num/2 + 1 || r != (num/2 + 1))
         cout << " ";
       else
         cout << "+";
